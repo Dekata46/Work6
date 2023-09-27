@@ -1,0 +1,111 @@
+@import url(./fonts.css);
+@import url(./reset.css);
+
+.wrapper {
+  width: 100%;
+  max-width: 1110px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.header .wrapper {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+}
+
+.logo {
+  margin-top: 29px;
+  margin-bottom: 29px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 63px;
+}
+
+.nav-link-active {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24.2px;
+  color: #c08d5d;
+}
+
+.nav-link {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24.2px;
+  color: #000000;
+}
+
+.nav-link:hover {
+  color: #c08d5d;
+}
+
+.main {
+  height: 842px;
+  background: url(/images/main-img.png) no-repeat #fffaf3;
+  background-position: 72% 0;
+}
+
+.promo .wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.promo-school {
+  margin-top: 202px;
+  width: 100%;
+  max-width: 564px;
+
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 60.51px;
+  letter-spacing: 1px;
+  color: #000000;
+}
+
+.promo span {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77.45px;
+  letter-spacing: 1px;
+  color: #000000;
+}
+
+.promo-text {
+  margin-top: 58px;
+  width: 100%;
+  max-width: 539px;
+
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26.57px;
+  letter-spacing: 1px;
+  color: #3f4042;
+}
+
+.promo-bt {
+  margin-top: 87px;
+  margin-bottom: 173px;
+  padding: 8px 21px;
+  border: 2px solid #c08d5d;
+
+  display: flex;
+  align-items: center;
+
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 29.52px;
+  letter-spacing: 1px;
+  color: #3f4042;
+}
